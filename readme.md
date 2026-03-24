@@ -75,7 +75,7 @@ Perfect for beginners learning **frontend development** and **Tailwind CSS layou
 3. Double-click on `index.html`
 4. Run in your browser 🎉
 
-[LIVE]()
+[LIVE](https://anandhues2004-kerala.github.io/TREND-LANDING-PAGE/)
 
 ---
 
