@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+       <!-- font ossom -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+<!-- google fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- tailwind css -->
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+       <script src="https://cdn.tailwindcss.com"></script>
+ <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              poppins: ["Poppins", "sans-serif"],
+              myfont1:[ "Michroma", "sans-serif"],
+              orbitron:["Orbitron", "sans-serif"]
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <main class="bg-white h-screen ">  
+         
+          <nav class=" h-20 bg-white flex  items-center justify-between py-15 px-10 xl:px-24 xl:py-15   " > 
+            
+               <img src="./img.png" alt="" class="w-[100px] lg:w-[190px] ">
+             
+
+     <ul class=" hidden md:flex items-center xl:text-2xl lg:text-xl gap-6 font-orbitron font-semibold">
+              <li class="cursor-pointr hover:text-black hover:underline">Home</li>  
+              <li class="cursor-pointr hover:text-black hover:underline">Male</li>  
+              <li class="cursor-pointr hover:text-black hover:underline">Female</li>  
+              <li class="cursor-pointr hover:text-black hover:underline">Faq</li>  
+              <li class="cursor-pointr hover:text-black hover:underline">About</li>  
+                </ul>
+                <div class="hidden md:flex gap-4" >
+                    <span class="text-2xl "> <i class="fa-solid fa-magnifying-glass" style="color: rgb(16, 17, 17);"></i></span>
+                    <button class="border-2 border-black h-10 w-30 xl:text-xl text-sm  text-center rounded-md hover:bg-red-500">search</button>
+                </div>
+                <div class="md:hidden text-2xl   ">
+                  <i class="fa-brands fa-github" style="color: rgb(16, 17, 17);"></i>
+                  <span><i class="fa-solid fa-bars" style="color: rgb(16, 17, 17);"></i></span>
+
+                </div>
+          </nav> 
+         <div class="hidden xl:flex
+         ">
+          <img src="./globe.png" alt="" class="absolute left-1/2 ">
+              <img src="./star.png" alt="" class="absolute right-25 top-30 " >  
+         </div>
+            
+           
+          <section class="flex justify-between flex-col xl:flex-row
+           px-10 md:px-24 py-4 gap-15 items-center">
+            
+            
+
+            <div class="  w-96 h-[400 px] relative py-4">
+<img src="./Image.png" alt="" class="relative z-50 left-6">
+<img src="./squares.png" alt="" class="absolute top-45 left-25 z-10 hidden md:flex ">
+
+            </div >
+          
+          
+           
+  <div class="xl:w-1/2 flex jusifiy-center flex-col items-center ">
+              
+<h1 class="font-orbitron   font-semibold  text-[40px] lg:text-5xl text-center">what's Trend in 2026 ?</h1>
+<br>
+<P class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae ipsum ad maiores tempore iusto minima voluptatum esse, cumque laudantium, magnam at, dolores ab? Eius odio dolorem exercitationem delectus. Maiores quibusdam excepturi dolore sit eos enim!</P>
+<DIV class="flex mt-4 gap-6 text-center justify-between flex-col md:flex-row
+">
+ 
+  <button class="font-orbitron border border-black w-42 rounded-md hover:bg-red-500">Email Address</button>
+  <span>
+    <button class="bg-black px-6 py-2 text-white font-orbitron rounded-md hover:text-red-500">JOIN NOW </button>
+  </span> 
+
+</DIV>
+
+
+
+<div class="mt-10 ">
+  <p class="text-stone-500 ">Contact us</p>
+
+</div >
+
+ <span class="flex gap-6 mt-4 "> 
+  <img src="./Group.png" alt="">
+  <img src="./Group (1).png" alt="">
+  <img src="./Group (2).png" alt="">
+  <img src="./Group (3).png" alt="">
+
+</span>
+
+
+            </div>
+              <div class="mt-10"></div>
+           
+          </section>
+        
+    </main>
+  
+    
+</body>
+</html>
